@@ -1,6 +1,6 @@
 # Veiledning for studenter: Slik jobber du med øvinger på GitHub
 
-## Del 1: Fork repository med øvingen
+## Del 1: Leg en Fork repository med øvingen
 
 ### Steg 1: Finn øvingsrepositoryet
 1. Åpne nettleseren og gå til GitHub (github.com)
