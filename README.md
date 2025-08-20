@@ -69,27 +69,3 @@
 2. Finn codespace du vil slette
 3. Klikk på de tre prikkene (...) til høyre
 4. Velg "Delete"
-
-## Vanlige problemer og løsninger
-
-**Problem**: "Fork"-knappen er grå/deaktivert
-- **Løsning**: Du har sannsynligvis allerede en fork. Sjekk dine repositories.
-
-**Problem**: Codespace åpner ikke
-- **Løsning**: Prøv en annen nettleser (Chrome/Edge fungerer best) eller tøm cache
-
-**Problem**: Jeg finner ikke mitt arbeid igjen
-- **Løsning**: Gå til github.com/codespaces for å se alle dine codespaces
-
-**Problem**: "You have reached the maximum number of codespaces"
-- **Løsning**: Slett gamle codespaces du ikke bruker lenger på github.com/codespaces
-
-## Sjekkliste før du begynner med øvingen
-
-✅ Jeg har forket repository (sjekk at MITT brukernavn står i URL)  
-✅ Jeg har opprettet Codespace fra MIN fork  
-✅ VS Code har åpnet seg i nettleseren  
-✅ Jeg kan se filene fra øvingen i filutforskeren  
-✅ Terminalen nederst fungerer  
-
-**Lykke til med øvingen!** 🚀
