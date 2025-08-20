@@ -1,2 +1,95 @@
-# welcome-to-codespaces
-Intro lab til GitHub Codespaces
+# Veiledning for studenter: Slik jobber du med øvinger på GitHub
+
+## Del 1: Fork repository med øvingen
+
+### Steg 1: Finn øvingsrepositoryet
+1. Åpne nettleseren og gå til GitHub (github.com)
+2. Logg inn med din GitHub-konto (opprett konto først hvis du ikke har)
+3. Gå til lenken til øvingsrepositoryet som læreren har delt med deg
+
+### Steg 2: Lag en fork
+1. Når du er inne på øvingsrepositoryet, klikk på **"Fork"**-knappen øverst til høyre på siden
+   - Knappen ser ut som en gaffel-ikon med tallet på antall forks ved siden av
+2. Du kommer nå til en side som heter "Create a new fork"
+3. **VIKTIG**: La følgende innstillinger stå som de er:
+   - Owner: Din egen GitHub-konto (skal allerede være valgt)
+   - Repository name: La navnet være som det er
+   - Description: Valgfritt, men du kan la den stå tom
+   - "Copy the main branch only" skal være huket av
+4. Klikk på den grønne knappen **"Create fork"**
+5. Vent noen sekunder mens GitHub lager din personlige kopi
+6. Du blir automatisk sendt til din egen fork når den er ferdig
+
+### Hvordan vite at du har gjort det riktig?
+- URL-en i nettleseren skal nå vise: `github.com/DITT-BRUKERNAVN/repository-navn`
+- Under repository-navnet står det "forked from [original-repository]"
+- Du har nå din egen kopi som du kan jobbe med!
+
+## Del 2: Opprett GitHub Codespace
+
+### Steg 1: Start Codespace fra din fork
+1. **VIKTIG**: Sørg for at du er på DIN fork (sjekk at ditt brukernavn står i URL-en)
+2. Klikk på den grønne **"Code"**-knappen (midt på siden, over fillisten)
+3. I menyen som dukker opp, klikk på fanen **"Codespaces"** (ved siden av "Local" og "SSH")
+
+### Steg 2: Opprett nytt Codespace
+1. Klikk på den grønne knappen **"Create codespace on main"**
+   - Hvis du allerede har et codespace, vil du se det listet opp. Du kan enten:
+     - Klikke på det eksisterende for å gjenbruke det
+     - Eller klikke på pluss-ikonet (+) for å lage et nytt
+2. Vent mens GitHub setter opp ditt utviklingsmiljø (dette kan ta 1-3 minutter første gang)
+3. Du vil se en lasteindikator og tekst som "Setting up your codespace..."
+
+### Steg 3: Codespace er klart
+1. Når lasting er ferdig, åpnes VS Code direkte i nettleseren
+2. Du ser nå:
+   - Filutforskeren til venstre med alle filer fra øvingen
+   - En terminal nederst hvor du kan kjøre kommandoer
+   - Hovedvinduet hvor du kan redigere kode
+3. Du er nå klar til å begynne med øvingen!
+
+## Viktige tips
+
+### Lagre arbeidet ditt
+- Codespace lagrer automatisk endringer lokalt
+- For å lagre til GitHub (anbefales jevnlig):
+  1. Klikk på Source Control-ikonet i venstre meny (ser ut som forgreninger)
+  2. Skriv en beskrivelse av hva du har gjort
+  3. Klikk "Commit" og deretter "Sync Changes"
+
+### Stoppe og starte Codespace
+- **Stoppe**: Lukk nettleser-fanen eller gå til github.com/codespaces og klikk "Stop"
+- **Starte igjen**: 
+  1. Gå til github.com/codespaces
+  2. Finn ditt codespace i listen
+  3. Klikk på navnet for å åpne det
+
+### Slette Codespace når du er ferdig
+1. Gå til github.com/codespaces
+2. Finn codespace du vil slette
+3. Klikk på de tre prikkene (...) til høyre
+4. Velg "Delete"
+
+## Vanlige problemer og løsninger
+
+**Problem**: "Fork"-knappen er grå/deaktivert
+- **Løsning**: Du har sannsynligvis allerede en fork. Sjekk dine repositories.
+
+**Problem**: Codespace åpner ikke
+- **Løsning**: Prøv en annen nettleser (Chrome/Edge fungerer best) eller tøm cache
+
+**Problem**: Jeg finner ikke mitt arbeid igjen
+- **Løsning**: Gå til github.com/codespaces for å se alle dine codespaces
+
+**Problem**: "You have reached the maximum number of codespaces"
+- **Løsning**: Slett gamle codespaces du ikke bruker lenger på github.com/codespaces
+
+## Sjekkliste før du begynner med øvingen
+
+✅ Jeg har forket repository (sjekk at MITT brukernavn står i URL)  
+✅ Jeg har opprettet Codespace fra MIN fork  
+✅ VS Code har åpnet seg i nettleseren  
+✅ Jeg kan se filene fra øvingen i filutforskeren  
+✅ Terminalen nederst fungerer  
+
+**Lykke til med øvingen!** 🚀
