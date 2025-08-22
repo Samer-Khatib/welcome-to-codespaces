@@ -4,9 +4,11 @@ Hva er GitHub Codespaces?
 GitHub Codespaces er et utviklingsmiljø i skyen som kjører direkte i nettleseren. Det gir deg tilgang til Visual Studio Code med alle filene 
 fra prosjektet ditt, slik at du kan programmere, teste og lagre endringer uten å måtte installere noe på din egen PC.
 
+Gratiskvoten på Codespaces er ganske "romslig" 
+
+<img width="813" height="455" alt="image" src="https://github.com/user-attachments/assets/28cbcbd5-dfc1-43fb-8c41-76b5a98ea1a3" />
+
 ## Del 1: Leg en Fork repository med øvingen
-
-
 
 ### Steg 1: Finn øvingsrepositoryet
 1. Åpne nettleseren og gå til GitHub (github.com)
