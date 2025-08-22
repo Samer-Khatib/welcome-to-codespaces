@@ -6,6 +6,8 @@ fra prosjektet ditt, slik at du kan programmere, teste og lagre endringer uten �
 
 ## Del 1: Leg en Fork repository med øvingen
 
+Hvis dette er din første øving - kan du gjerne bruke dette repositoryet som et eksempel!
+
 ### Steg 1: Finn øvingsrepositoryet
 1. Åpne nettleseren og gå til GitHub (github.com)
 2. Logg inn med din GitHub-konto (opprett konto først hvis du ikke har)
